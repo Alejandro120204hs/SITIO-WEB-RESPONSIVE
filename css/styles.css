@@ -85,6 +85,13 @@ padding: 20px 5%;
 justify-content: space-between;
 align-items: center;
 }
+header nav a img{
+transition: .5s;
+}
+
+header nav a img:hover{
+transform: scale(1.3);
+}
 
 header nav.mobile{
 display: none;
